@@ -39,8 +39,8 @@ function updateLs() {
   let arr = [];
   card.forEach((element) => {
     arr.push({
-      title: element.children[0].innerText,
-      desc: element.children[1].innerText,
+      title: element.children[0].innerText.toString(),
+      desc: element.children[1].innerText.toString(),
     });
   });
   localStorage.setItem("notes", JSON.stringify(arr));
