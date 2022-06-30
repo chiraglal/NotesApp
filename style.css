@@ -87,6 +87,7 @@ input:placeholder-shown{
     display: block;
     margin-left: auto;
     background: none;
+    padding: 5px;
 }
 .notes{
     width: 100%;
