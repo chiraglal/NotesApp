@@ -81,22 +81,12 @@ input:placeholder-shown{
     padding-bottom: 7px;
 }
 .submit{
-    width: 60px;
-    height: 30px;
-    border-radius: 5px;
-    outline: none;
     border: none;
-    box-shadow: 1px 1px 4px 1px;
-    background-color: #fff;
     font-size: 25px;
     cursor: pointer;
     display: block;
     margin-left: auto;
-}
-.submit:hover{
-    background-color: #fff;
-    box-shadow: 0 0 10px lightpink;
-    transition: ease 0.5s;
+    background: none;
 }
 .notes{
     width: 100%;
